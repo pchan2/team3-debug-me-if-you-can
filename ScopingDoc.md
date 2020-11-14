@@ -41,7 +41,7 @@ The following are out of scope for this Code Your Future (CYF) “Track Students
 1. SQL Programming.
 2. Migration of content.
 
-Project Deliverables
+# Project Deliverables
 
 The following deliverables are required for this Code Your Future (CYF) “Track Students Progress” project:
 
