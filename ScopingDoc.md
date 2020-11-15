@@ -97,6 +97,7 @@ The following Risks must be taken into account for the Code Your Future (CYF) â€
 7. User Connection problems to the tools AppDiagrams / Git Hub / Miro / Slack / Trello
 8. Allocation of Resources to the appropriate skills
 9. Poor Time Management â€“ Caused by IT issues / No Decisions / Clash of Ideas / Uncertainty of deliverable.
+10. Technical Issues
 
 # Project Constraints
 
