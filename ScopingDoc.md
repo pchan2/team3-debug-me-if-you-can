@@ -38,8 +38,7 @@ The scope of this story is to develop a tool for Code Your Future (CYF) voluntee
 
 The following are out of scope for this Code Your Future (CYF) “Track Students Progress” project:
 
-1. SQL Programming.
-2. Migration of content.
+1. Migration of content.
 
 # Project Deliverables
 
