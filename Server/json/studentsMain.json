@@ -1,0 +1,82 @@
+[
+    {
+        "id":0,
+        "name":"Patrick Chan",
+        "photo":"yes",
+        "pdBuddy":"Amardeep",
+        "eduBuddy":"Nadir",
+        "gitHub":"pchan2",
+        "englishTest":"good",
+        "languageSupport":"yes"
+    },
+    {
+        "id":1,
+        "name":"Daniel Carter",
+        "photo":"yes",
+        "pdBuddy":"Jude",
+        "eduBuddy":"Dharmesh Chohan",
+        "gitHub":"Daniel",
+        "englishTest":"good",
+        "languageSupport":"yes"
+    },
+    {
+        "id":2,
+        "name":"Ebenezer Sam",
+        "photo":"yes",
+        "pdBuddy":"Leary",
+        "eduBuddy":"Nadir",
+        "gitHub":"Samuk",
+        "englishTest":"good",
+        "languageSupport":"yes"
+    },
+    {
+        "id":3,
+        "name":"Clair",
+        "photo":"yes",
+        "pdBuddy":"Salina",
+        "eduBuddy":"Nadir",
+        "gitHub":"Clairuk",
+        "englishTest":"good",
+        "languageSupport":"yes"
+    },
+    {
+        "id":4,
+        "name":"Berhane Woldetensay",
+        "photo":"yes",
+        "pdBuddy":"Salina",
+        "eduBuddy":"Jude",
+        "gitHub":"Woldetensayuk",
+        "englishTest":"good",
+        "languageSupport":"yes"
+    },
+    {
+        "id":5,
+        "name":"Leory",
+        "photo":"yes",
+        "pdBuddy":"Wahab",
+        "eduBuddy":"Jude",
+        "gitHub":"Leory",
+        "englishTest":"good",
+        "languageSupport":"yes"
+    },
+    {
+        "id":6,
+        "name":"Gennady Tabala",
+        "photo":"yes",
+        "pdBuddy":"Nadir",
+        "eduBuddy":"Chris",
+        "gitHub":"TabalaUk",
+        "englishTest":"Average",
+        "languageSupport":"yes"
+    },
+    {
+        "id":7,
+        "name":"Zubeda",
+        "photo":"yes",
+        "pdBuddy":"Nadir",
+        "eduBuddy":"Shukrii",
+        "gitHub":"zubedaUk",
+        "englishTest":"Average",
+        "languageSupport":"yes"
+    }
+]
