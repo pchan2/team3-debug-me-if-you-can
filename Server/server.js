@@ -12,4 +12,8 @@ app.use(studentProfile);
 const studentList = require("./routes/studentList");      
 app.use(studentList);
 
+// API routes for Students PD Screen
+const studentPD = require("./routes/studentPD");      
+app.use(studentPD);
+
 app.listen(PORT, _ => console.log(`server is listening on ${PORT}`));
