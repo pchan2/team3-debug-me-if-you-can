@@ -1,0 +1,72 @@
+[
+  {
+	"student_id": 1,
+	"name": "student 1",
+	"assignment": [ 5,7,4,9,0,0,9,0,0,0,0,0,0,7 ],
+	"attendance": [ "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "No", "No", "Yes", "Yes", "No", "No"],
+	"email": "Student1@gmail.com"
+  },
+  {
+	"student_id": 2,
+	"name": "Student 2",
+	"assignment": [ 3,8,9,7,7,8,5,7,9,7,0,8,6,5,8,8 ],
+	"attendance": [ "Late",	"Yes", "No", "Yes",	"Yes", "Yes", "Yes", "Yes",	"Yes", "Yes", "Yes", "Yes",	"Yes", "Yes", "Yes" ],
+	"email": "Student2@gmail.com"
+  },
+  {
+	"student_id": 3,
+	"name": "Student 3",
+	"assignment": [ 8,0,0,8,8,9.5,8,8,7,9,7,8,0,6 ],
+	"attendance": [ "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "No", "No", "Yes", "Yes", "Yes",	"Yes" ],
+	"email": "Student3@gmail.com"
+  },
+  {
+	"student_id": 4,
+	"name": "student 4",
+	"assignment": [ 5,6,4,8,6,8,5,8,10,8,8,7.5,8,9,8 ],
+	"attendance": [ "Yes", "Yes", "Yes", "Yes",	"Yes", "Late", "Yes", "Late", "Yes", "Late", "Yes", "Yes", "Yes", "Yes", "Yes" ],
+	"email": "Student4@gmail.com"
+  },
+  {
+	"student_id": 5,
+	"name": "Student 5",
+	"assignment": [ 6,5,9,8,6.5,8,9,9,9,9,7,9,7,8,9 ],
+	"attendance": [ "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Late", "Yes",	"Yes", "Yes", "Yes", "Yes", "Yes", "Yes" ],
+	"email": "Student5@gmail.com"
+  },
+  {
+	"student_id": 6,
+	"name": "Student 6",
+	"assignment": [ 4,5,7,6,7,3,7,8,7,7,8,0,5,9 ],
+	"attendance": [ "Yes", "Yes", "Late", "Yes", "Yes",	"Late",	"Yes", "Yes", "Late", "Yes", "Yes",	"Yes", "Yes", "Yes", "Yes" ],
+	"email": "Student6@gmail.com"
+  },
+  {
+	"student_id": 7,
+	"name": "Student 7",
+	"assignment": [ 8,8,8,9,9,7.5,8,7,9,0,0,0,7,8,8 ],
+	"attendance": [ "Late", "Yes", "Late", "Yes", "Late", "Late", "Yes", "Late", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"],
+	"email": "Student7@gmail.com"
+  },
+  {
+	"student_id": 8,
+	"name": "student 8",
+	"assignment": [ 5,8,8.5,8,6.5,6,6,7,6.5,7,6,9,9 ],
+	"attendance": [ "Late",	"Yes", "Late", "Yes", "Late", "Late", "Yes", "Yes",	"Yes", "Yes", "Yes", "Yes",	"Yes", "Yes", "Yes" ],
+	"email": "Student8@gmail.com"
+  },
+  {
+	"student_id": 9,
+	"name": "Student 9",
+	"assignment": [ 5,8,7,7,8,9,8,8,10,8,9,8,8,7,9 ],
+	"attendance": [ "Yes", "No", "No", "Yes", "Yes", "Yes",	"Yes",	"Yes", "Yes", "Yes", "No",	"Yes",	"Yes",	"Yes",	"Yes" ],
+	"email": "Student9@gmail.com"
+  },
+  {
+	"student_id": 10,
+	"name": "Student 10",
+	"assignment": [ 7,4,6,8,9,8.5,7,8,8,7,8,6,7,6,7 ],
+	"attendance": [ "Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes",	"Yes"],
+	"email": "Student10@gmail.com"
+  }
+]
