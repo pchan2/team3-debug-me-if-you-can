@@ -1,1 +1,2 @@
-Client is the root folder for the Client code
+
+All routes are defined in routes folder
