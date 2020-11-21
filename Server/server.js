@@ -1,9 +1,13 @@
 const express = require('express');
 const app = express();
+const cors = require("cors");
 const PORT = process.env.PORT || 4002;
 
 app.use(express.json());                    // body parser
 app.use(express.urlencoded({ extended: false }));                 // HTML forms parser
+app.use(cors());
+
+
 
 const studentProfile = require("./routes/studentprofile");      // API routes for Student Profiles Screen
 app.use(studentProfile);
