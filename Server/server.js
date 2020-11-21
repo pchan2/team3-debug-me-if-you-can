@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 4002;
+const cors = require("cors");
 
+app.use(cors());
 app.use(express.json());                    // body parser
 app.use(express.urlencoded({ extended: false }));                 // HTML forms parser
 
