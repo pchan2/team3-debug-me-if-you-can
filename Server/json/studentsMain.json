@@ -5,6 +5,8 @@
         "photo":"yes",
         "pdBuddy":"Amardeep",
         "eduBuddy":"Nadir",
+        "location":"Birmingham",
+        "className":"Class",
         "gitHub":"pchan2",
         "englishTest":"good",
         "languageSupport":"yes"
@@ -15,6 +17,8 @@
         "photo":"yes",
         "pdBuddy":"Jude",
         "eduBuddy":"Dharmesh Chohan",
+        "location":"Birmingham",
+        "className":"Class",
         "gitHub":"Daniel",
         "englishTest":"good",
         "languageSupport":"yes"
@@ -25,6 +29,8 @@
         "photo":"yes",
         "pdBuddy":"Leary",
         "eduBuddy":"Nadir",
+        "location":"London",
+        "className":"Class1",
         "gitHub":"Samuk",
         "englishTest":"good",
         "languageSupport":"yes"
@@ -35,6 +41,8 @@
         "photo":"yes",
         "pdBuddy":"Salina",
         "eduBuddy":"Nadir",
+        "location":"Birmingham",
+        "className":"Class1",
         "gitHub":"Clairuk",
         "englishTest":"good",
         "languageSupport":"yes"
@@ -45,6 +53,8 @@
         "photo":"yes",
         "pdBuddy":"Salina",
         "eduBuddy":"Jude",
+        "location":"Manchester",
+        "className":"Class1",
         "gitHub":"Woldetensayuk",
         "englishTest":"good",
         "languageSupport":"yes"
@@ -55,6 +65,8 @@
         "photo":"yes",
         "pdBuddy":"Wahab",
         "eduBuddy":"Jude",
+        "location":"Birmingham",
+        "className":"Class1",
         "gitHub":"Leory",
         "englishTest":"good",
         "languageSupport":"yes"
@@ -65,6 +77,8 @@
         "photo":"yes",
         "pdBuddy":"Nadir",
         "eduBuddy":"Chris",
+        "location":"London",
+        "className":"Class1",
         "gitHub":"TabalaUk",
         "englishTest":"Average",
         "languageSupport":"yes"
@@ -75,6 +89,8 @@
         "photo":"yes",
         "pdBuddy":"Nadir",
         "eduBuddy":"Shukrii",
+        "location":"Birmingham",
+        "className":"Class1",
         "gitHub":"zubedaUk",
         "englishTest":"Average",
         "languageSupport":"yes"
