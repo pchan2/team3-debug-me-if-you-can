@@ -3,8 +3,8 @@ const express = require("express");
 const students = require("../json/students.json");
 const studentProfile = express.Router();
 
-studentProfile.get('/profile/student', (request, response) => {
-    response.json(students[0]); 
+studentProfile.get('/profile/student', (request, response) => {    // Test route to check what students are available
+    response.json(students); 
 });
 
 studentProfile.get('/profile/student/:id', (request, response) => {
