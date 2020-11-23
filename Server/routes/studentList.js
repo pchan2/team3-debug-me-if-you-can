@@ -18,7 +18,7 @@ studentList.get("/", (request, response) => {
     {
       "request with empty location, className and term - all students":
         "/students/search?location=&className=&term=",
-    }
+    },
   ]);
 });
 studentList.get("/students", (request, response) => {
@@ -48,6 +48,20 @@ studentList.post("/students", (request, response) => {
   newStudent.id = students.length;
   students.push(newStudent);
   response.send("Success!");
+});
+
+//Delete student
+studentList.delete("/students/:id", (request, response) => {
+  const studentId = request.params.id;
+  const found = students.findIndex((item) => item.id == studentId);
+  if (found >= 0) {
+    students.splice(found, 1);
+    response.send("Success!");
+  } else {
+    response
+      .status(400)
+      .json({ msg: `Student with id ${studentId} not found!` });
+  }
 });
 
 module.exports = studentList;
