@@ -64,4 +64,26 @@ studentList.delete("/students/:id", (request, response) => {
   }
 });
 
+//Update student
+studentList.put("/students/:id", (request, response) => {
+  const studentId = request.params.id;
+  const studentUpd = request.body;
+
+  const foundStudent = students.find((item) => item.id == studentId);
+  if (!!foundStudent) {
+    foundStudent.name = studentUpd.name;
+    foundStudent.photo = studentUpd.photo;
+    foundStudent.pdBuddy = studentUpd.pdBuddy;
+    foundStudent.eduBuddy = studentUpd.eduBuddy;
+    foundStudent.gitHub = studentUpd.gitHub;
+    foundStudent.englishTest = studentUpd.englishTest;
+    foundStudent.languageSupport = studentUpd.languageSupport;
+    response.send("Success!");
+  } else {
+    response
+      .status(400)
+      .json({ msg: `Student with id ${studentId} not found!` });
+  }
+});
+
 module.exports = studentList;
