@@ -45,7 +45,7 @@ studentList.get("/students/search", (request, response) => {
 //Add new student
 studentList.post("/students", (request, response) => {
   const newStudent = request.body;
-  newStudent.id = students.length;
+  newStudent.id = Math.max.apply(null, students.map(item => item.id)) + 1;
   students.push(newStudent);
   response.send("Success!");
 });
