@@ -6,7 +6,7 @@
 	"attendance": [ 91.5 ],
 	"assignments_missing": [ 1 ],
 	"class_late": [ 3.70 ],
-	"email": "Student1@gmail.com"
+	"email": "cpeteuil@gmail.com"
   },
   {
 	"student_id": 1,
@@ -15,7 +15,7 @@
 	"attendance": [ 84.62 ],
 	"assignments_missing": [3],
 	"class_late": [ 0.00 ],
-	"email": "Student2@gmail.com"
+	"email": "kcalderwood@gmail.com"
   },
   {
 	"student_id": 2,
@@ -24,7 +24,7 @@
 	"attendance": [ 100.00 ],
 	"assignments_missing": [ 0 ],
 	"class_late": [ 14.81 ],
-	"email": "Student3@gmail.com"
+	"email": "mcary@gmail.com"
   },
   {
 	"student_id": 3,
@@ -33,7 +33,7 @@
 	"attendance": [  100.00 ],
 	"assignments_missing": [ 0 ],
 	"class_late": [ 3.70 ],
-	"email": "Student4@gmail.com"
+	"email": "emoselle@hotmail.com"
   },
   {
 	"student_id": 4,
@@ -42,7 +42,7 @@
 	"attendance": [ 100.00 ],
 	"assignments_missing": [ 1 ],
 	"class_late": [ 11.54 ],
-	"email": "Student5@gmail.com"
+	"email": "thornby@gmail.com"
   },
   {
 	"student_id": 5,
@@ -51,7 +51,7 @@
 	"attendance": [ 100.00  ],
 	"assignments_missing": [ 3 ],
 	"class_late": [ 18.52 ],
-	"email": "Student6@gmail.com"
+	"email": "agodbolt@yahoo.com"
   },
   {
 	"student_id": 6,
@@ -60,7 +60,7 @@
 	"attendance": [ 100.00 ],
 	"assignments_missing": [ 0 ],
 	"class_late": [ 14.81 ],
-	"email": "Student7@gmail.com"
+	"email": "kbuen@yahoo.com"
   },
   {
 	"student_id": 7,
@@ -69,7 +69,7 @@
 	"attendance": [ 88.46 ],
 	"assignmens_missing": [ 0 ],
 	"class_late": [ 0.0 ],
-	"email": "Student8@gmail.com"
+	"email": "fagundez@gmail.com"
   },
   {
 	"student_id": 8,
@@ -78,7 +78,7 @@
 	"attendance": [ 100.00 ],
 	"assignmens_missing": [ 0 ],
 	"class_late": [ 0.0 ],
-	"email": "Student9@gmail.com"
+	"email": "lthate@hotmail.com"
   },
   {
 	"student_id": 9,
@@ -87,6 +87,6 @@
 	"attendance": [ 88.00 ],
 	"assignments_missing": [ 2 ],
 	"class_late": [ 19.23 ],
-	"email": "Student10@gmail.com"
+	"email": "aconkel@yahoo.com"
   }
 ]
