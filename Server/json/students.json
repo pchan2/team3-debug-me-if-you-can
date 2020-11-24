@@ -1,92 +1,257 @@
-[
-  {
+[{
 	"student_id": 0,
 	"name": "Christoper Peteuil",
-	"assignment": [ 7.29 ],
-	"attendance": [ 91.5 ],
-	"assignments_missing": [ 1 ],
-	"class_late": [ 3.70 ],
+	"assignment": [6.83],
+	"assignments_missing": [8],
+	"attendance": [61.54],
+	"class_lance": [0],
 	"email": "cpeteuil@gmail.com"
-  },
-  {
+}, {
 	"student_id": 1,
 	"name": "Kourtney Calderwood",
-	"assignment": [ 7.86 ],
-	"attendance": [ 84.62 ],
-	"assignments_missing": [3],
-	"class_late": [ 0.00 ],
+	"assignment": [7.29],
+	"assignments_missing": [1],
+	"attendance": [96.15],
+	"class_lance": [3.7],
 	"email": "kcalderwood@gmail.com"
-  },
-  {
+}, {
 	"student_id": 2,
 	"name": "Muoi Cary",
-	"assignment": [ 7.23 ],
-	"attendance": [ 100.00 ],
-	"assignments_missing": [ 0 ],
-	"class_late": [ 14.81 ],
+	"assignment": [7.86],
+	"assignments_missing": [3],
+	"attendance": [84.62],
+	"class_lance": [0],
 	"email": "mcary@gmail.com"
-  },
-  {
+}, {
 	"student_id": 3,
 	"name": "Era Moselle",
-	"assignment": [ 7.90 ],
-	"attendance": [  100.00 ],
-	"assignments_missing": [ 0 ],
-	"class_late": [ 3.70 ],
-	"email": "emoselle@hotmail.com"
-  },
-  {
+	"assignment": [7.23],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [14.81],
+	"email": "emoselle@gmail.com"
+}, {
 	"student_id": 4,
 	"name": "Trena Hornby",
-	"assignment": [ 6.38 ],
-	"attendance": [ 100.00 ],
-	"assignments_missing": [ 1 ],
-	"class_late": [ 11.54 ],
+	"assignment": [7.9],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [3.7],
 	"email": "thornby@gmail.com"
-  },
-  {
+}, {
 	"student_id": 5,
 	"name": "Antione Godbolt",
-	"assignment": [ 8.04 ],
-	"attendance": [ 100.00  ],
-	"assignments_missing": [ 3 ],
-	"class_late": [ 18.52 ],
-	"email": "agodbolt@yahoo.com"
-  },
-  {
+	"assignment": [6.38],
+	"assignments_missing": [1],
+	"attendance": [100],
+	"class_lance": [11.54],
+	"email": "agodbolt@gmail.com"
+}, {
 	"student_id": 6,
 	"name": "Kyra Buen",
-	"assignment": [ 7.12 ],
-	"attendance": [ 100.00 ],
-	"assignments_missing": [ 0 ],
-	"class_late": [ 14.81 ],
-	"email": "kbuen@yahoo.com"
-  },
-  {
+	"assignment": [8.04],
+	"assignments_missing": [3],
+	"attendance": [100],
+	"class_lance": [18.52],
+	"email": "kbuen@gmail.com"
+}, {
 	"student_id": 7,
 	"name": "Francesco Agundez",
-	"assignment": [ 7.93 ],
-	"attendance": [ 88.46 ],
-	"assignmens_missing": [ 0 ],
-	"class_late": [ 0.0 ],
+	"assignment": [7.12],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [14.81],
 	"email": "fagundez@gmail.com"
-  },
-  {
+}, {
 	"student_id": 8,
 	"name": "Leslie Thate",
-	"assignment": [ 7.10 ],
-	"attendance": [ 100.00 ],
-	"assignmens_missing": [ 0 ],
-	"class_late": [ 0.0 ],
-	"email": "lthate@hotmail.com"
-  },
-  {
+	"assignment": [7.93],
+	"assignments_missing": [0],
+	"attendance": [88.46],
+	"class_lance": [0],
+	"email": "lthate@gmail.com"
+}, {
 	"student_id": 9,
 	"name": "Alva Conkel",
-	"assignment": [ 6.75 ],
-	"attendance": [ 88.00 ],
-	"assignments_missing": [ 2 ],
-	"class_late": [ 19.23 ],
-	"email": "aconkel@yahoo.com"
-  }
-]
+	"assignment": [7.1],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [0],
+	"email": "aconkel@gmail.com"
+}, {
+	"student_id": 10,
+	"name": "Denver Barness",
+	"assignment": [6.75],
+	"assignments_missing": [2],
+	"attendance": [88],
+	"class_lance": [19.23],
+	"email": "dbarness@gmail.com"
+}, {
+	"student_id": 11,
+	"name": "Yessenia Fossen",
+	"assignment": [7.43],
+	"assignments_missing": [1],
+	"attendance": [100],
+	"class_lance": [11.11],
+	"email": "yfossen@gmail.com"
+}, {
+	"student_id": 12,
+	"name": "Brittney Garfield",
+	"assignment": [7.73],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [3.7],
+	"email": "bgarfield@gmail.com"
+}, {
+	"student_id": 13,
+	"name": "Adolfo Milbury",
+	"assignment": [5.36],
+	"assignments_missing": [3],
+	"attendance": [100],
+	"class_lance": [0],
+	"email": "amilbury@gmail.com"
+}, {
+	"student_id": 14,
+	"name": "Shanita Grigaliunas",
+	"assignment": [5.4],
+	"assignments_missing": [9],
+	"attendance": [72],
+	"class_lance": [15.38],
+	"email": "sgrigaliunas@gmail.com"
+}, {
+	"student_id": 15,
+	"name": "Cory Rodriquz",
+	"assignment": [6],
+	"assignments_missing": [7],
+	"attendance": [76],
+	"class_lance": [23.08],
+	"email": "crodriquz@gmail.com"
+}, {
+	"student_id": 16,
+	"name": "Sandy Braim",
+	"assignment": [7.97],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [11.11],
+	"email": "sbraim@gmail.com"
+}, {
+	"student_id": 17,
+	"name": "Alyssa Wacaster",
+	"assignment": [6.5],
+	"assignments_missing": [4],
+	"attendance": [96.15],
+	"class_lance": [7.41],
+	"email": "awacaster@gmail.com"
+}, {
+	"student_id": 18,
+	"name": "Candra Laguardia",
+	"assignment": [5.71],
+	"assignments_missing": [1],
+	"attendance": [92.31],
+	"class_lance": [18.52],
+	"email": "claguardia@gmail.com"
+}, {
+	"student_id": 19,
+	"name": "Everett Flasher",
+	"assignment": [7.2],
+	"assignments_missing": [4],
+	"attendance": [60],
+	"class_lance": [11.54],
+	"email": "eflasher@gmail.com"
+}, {
+	"student_id": 20,
+	"name": "Ted Denfip",
+	"assignment": [7.23],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [0],
+	"email": "tdenfip@gmail.com"
+}, {
+	"student_id": 21,
+	"name": "Harley Dearmore",
+	"assignment": [7.9],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [0],
+	"email": "hdearmore@gmail.com"
+}, {
+	"student_id": 22,
+	"name": "Dominique Kelcourse",
+	"assignment": [6.65],
+	"assignments_missing": [1],
+	"attendance": [100],
+	"class_lance": [0],
+	"email": "dkelcourse@gmail.com"
+}, {
+	"student_id": 23,
+	"name": "Tawnya Soenksen",
+	"assignment": [7.57],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [3.7],
+	"email": "tsoenksen@gmail.com"
+}, {
+	"student_id": 24,
+	"name": "Lynette Gehrlein",
+	"assignment": [7.04],
+	"assignments_missing": [3],
+	"attendance": [96.15],
+	"class_lance": [3.7],
+	"email": "lgehrlein@gmail.com"
+}, {
+	"student_id": 25,
+	"name": "Dayna Hamiter",
+	"assignment": [5.58],
+	"assignments_missing": [1],
+	"attendance": [84],
+	"class_lance": [3.85],
+	"email": "dhamiter@gmail.com"
+}, {
+	"student_id": 26,
+	"name": "Alysha Laba",
+	"assignment": [7.89],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [3.7],
+	"email": "alaba@gmail.com"
+}, {
+	"student_id": 27,
+	"name": "Rogelio Gundersen",
+	"assignment": [7.39],
+	"assignments_missing": [1],
+	"attendance": [100],
+	"class_lance": [3.7],
+	"email": "rgundersen@gmail.com"
+}, {
+	"student_id": 28,
+	"name": "Vern Knochel",
+	"assignment": [7.54],
+	"assignments_missing": [0],
+	"attendance": [100],
+	"class_lance": [0],
+	"email": "vknochel@gmail.com"
+}, {
+	"student_id": 29,
+	"name": "Rogelio Trullinger",
+	"assignment": [6.65],
+	"assignments_missing": [3],
+	"attendance": [92],
+	"class_lance": [7.69],
+	"email": "rtrullinger@gmail.com"
+}, {
+	"student_id": 30,
+	"name": "Phil Brumbach",
+	"assignment": [6.67],
+	"assignments_missing": [3],
+	"attendance": [96.15],
+	"class_lance": [3.7],
+	"email": "pbrumbach@gmail.com"
+}, {
+	"student_id": 31,
+	"name": "Brant Chestand",
+	"assignment": [7.64],
+	"assignments_missing": [1],
+	"attendance": [100],
+	"class_lance": [0],
+	"email": "bchestand@gmail.com"
+}]
