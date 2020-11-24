@@ -23,7 +23,7 @@ studentPD.get("/pd/students/communication/:score", (request, response) => {
     );
     response.json(communicationByScore);
   } else {
-    response.status(400).send("Sorry, enter a number between 1-5");
+    response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
   }
 });
 
@@ -37,7 +37,7 @@ studentPD.get("/pd/students/resilience/:score", (request, response) => {
     );
     response.json(resilienceByScore);
   } else {
-    response.status(400).send("Sorry, enter a number between 1-5");
+    response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
   }
 });
 
@@ -71,7 +71,7 @@ studentPD.get("/pd/students/:id", (request, response) => {
 
   if(foundStudent) {
     response.json(foundStudent);
-  } response.status(404).json({ msg: `Student with id ${id} not found!` });
+  } response.status(404).json({ msg: `Student with id: ${id} not found!` });
 });
 
 module.exports = studentPD;
