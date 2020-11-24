@@ -1,6 +1,8 @@
 const express = require("express");
 
 const students = require("../json/studentsMain.json");
+const locations = require("../json/locations.json");
+const classes = require("../json/classes.json");
 const studentList = express.Router();
 
 studentList.get("/", (request, response) => {
@@ -42,10 +44,37 @@ studentList.get("/students/search", (request, response) => {
   );
 });
 
+studentList.get("/complex", (request, response) => {
+  //Data of all students
+  response.json({ students: students, locations: locations, classes: classes });
+});
+
+studentList.get("/complex/search", (request, response) => {
+  const location = request.query.location;
+  const className = request.query.className;
+  const term = request.query.term;
+
+  //Data of all students filtered by location, class name and search term
+  response.json({
+    students: students
+      .filter((item) => (!location ? true : item.location === location))
+      .filter((item) => (!className ? true : item.className === className))
+      .filter((item) =>
+        !term ? true : item.name.toLowerCase().includes(term.toLowerCase())
+      ),
+    locations: locations,
+    classes: classes,
+  });
+});
+
 //Add new student
 studentList.post("/students", (request, response) => {
   const newStudent = request.body;
-  newStudent.id = Math.max.apply(null, students.map(item => item.id)) + 1;
+  newStudent.id =
+    Math.max.apply(
+      null,
+      students.map((item) => item.id)
+    ) + 1;
   students.push(newStudent);
   response.send("Success!");
 });
