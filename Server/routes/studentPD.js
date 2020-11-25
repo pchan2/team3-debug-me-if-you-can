@@ -13,53 +13,45 @@ studentPD.get("/pd/students", (request, response) => {
   response.json(studentData);
 });
 
-//search by score for communication heading
+//search by score for each resource headings
 studentPD.get("/pd/students/:resource/:score", (request, response) => {
   const score = request.params.score;
   const resource = request.params.resource;
 
   const allowedNumbers = /^[1-5]$/; // ^ and $ to anchor the range and only allow 1 character
 
-  if(resource == "Growth" || resource == "Communication" || resource == "Resilience") {
+  if(resource == "Growth") {
     if (score && score.match(allowedNumbers)) {
-      const resourceByScore = studentData.filter(
-        (student) => student.resource == score
+      const growthByScore = studentData.filter(
+        (student) => student.Growth == score
       );
-      response.json(resourceByScore);
+      response.json(growthByScore);
+    } else {
+      response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
+    }
+    
+  } else if(resource == "Communication") {
+    if (score && score.match(allowedNumbers)) {
+      const communicationByScore = studentData.filter(
+        (student) => student.Communication == score
+      );
+      response.json(communicationByScore);
+    } else {
+      response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
+    }
+    
+  } else if(resource == "Resilience") {
+    if (score && score.match(allowedNumbers)) {
+      const resilienceByScore = studentData.filter(
+        (student) => student.Resilience == score
+      );
+      response.json(resilienceByScore);
     } else {
       response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
     }
     
   } else {
     response.status(400).json({ msg: "Sorry, enter either Growth, Communication or Resilience" });
-  }
-});
-
-//search by score for resilience heading
-studentPD.get("/pd/students/resilience/:score", (request, response) => {
-  const { score } = request.params;
-  const allowedNumbers = /^[1-5]$/; // ^ and $ to anchor the range and only allow 1 character
-  if (score && score.match(allowedNumbers)) {
-    const resilienceByScore = studentData.filter(
-      (student) => student.Resilience == score
-    );
-    response.json(resilienceByScore);
-  } else {
-    response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
-  }
-});
-
-//search by score for growth heading
-studentPD.get("/pd/students/growth/:score", (request, response) => {
-  const { score } = request.params;
-  const allowedNumbers = /^[1-5]$/; // ^ and $ to anchor the range and only allow 1 character
-  if (score && score.match(allowedNumbers)) {
-    const growthByScore = studentData.filter(
-      (student) => student.Growth == score
-    );
-    response.json(growthByScore);
-  } else {
-    response.status(400).json({msg: "Sorry, enter a number between 1-5"});
   }
 });
 
