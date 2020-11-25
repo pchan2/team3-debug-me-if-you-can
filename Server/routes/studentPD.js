@@ -19,7 +19,7 @@ studentPD.get("/pd/students/search", (request, response) => {
 
   response.json(
     studentData.filter(
-      (student) => (!searchName ? true : student.name.toLowerCase().includes(searchName.toLowerCase()))))
+      (student) => (!searchName ? true : student.name[0].toLowerCase().includes(searchName.toLowerCase()))))
 });
 
 //search by score for each resource headings
