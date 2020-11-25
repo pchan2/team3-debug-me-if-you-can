@@ -13,6 +13,15 @@ studentPD.get("/pd/students", (request, response) => {
   response.json(studentData);
 });
 
+//gets student by name
+studentPD.get("/pd/students/search", (request, response) => {
+  const searchName = request.query.name;
+
+  response.json(
+    studentData.filter(
+      (student) => (!searchName ? true : student.name.toLowerCase().includes(searchName.toLowerCase()))))
+});
+
 //search by score for each resource headings
 studentPD.get("/pd/students/:resource/:score", (request, response) => {
   const score = request.params.score;
@@ -33,15 +42,6 @@ studentPD.get("/pd/students/:resource/:score", (request, response) => {
   } else {
     response.status(400).json({ msg: "Sorry, enter either Growth, Communication or Resilience" });
   }
-});
-
-//gets student by name, for testing put numbers as name
-studentPD.get("/pd/students/search", (request, response) => {
-  const searchName = request.query.name;
-
-  response.json(
-    studentData.filter(
-      (student) => (!searchName ? true : student.name.toLowerCase().includes(searchName.toLowerCase()))))
 });
 
 // gets students data by ID
