@@ -14,16 +14,24 @@ studentPD.get("/pd/students", (request, response) => {
 });
 
 //search by score for communication heading
-studentPD.get("/pd/students/communication/:score", (request, response) => {
-  const { score } = request.params;
+studentPD.get("/pd/students/:resource/:score", (request, response) => {
+  const score = request.params.score;
+  const resource = request.params.resource;
+
   const allowedNumbers = /^[1-5]$/; // ^ and $ to anchor the range and only allow 1 character
-  if (score && score.match(allowedNumbers)) {
-    const communicationByScore = studentData.filter(
-      (student) => student.Communication == score
-    );
-    response.json(communicationByScore);
+
+  if(resource == "Growth" || resource == "Communication" || resource == "Resilience") {
+    if (score && score.match(allowedNumbers)) {
+      const resourceByScore = studentData.filter(
+        (student) => student.resource == score
+      );
+      response.json(resourceByScore);
+    } else {
+      response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
+    }
+    
   } else {
-    response.status(400).json({ msg: "Sorry, enter a number between 1-5" });
+    response.status(400).json({ msg: "Sorry, enter either Growth, Communication or Resilience" });
   }
 });
 
@@ -71,7 +79,7 @@ studentPD.get("/pd/students/:id", (request, response) => {
 
   if(foundStudent) {
     response.json(foundStudent);
-  } response.status(404).json({ msg: `Student with id: ${id} not found!` });
+  } response.status(400).json({ msg: `Student with id: ${id} not found!` });
 });
 
 module.exports = studentPD;
