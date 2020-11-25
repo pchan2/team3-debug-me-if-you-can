@@ -44,6 +44,125 @@ studentList.get("/students/search", (request, response) => {
   );
 });
 
+studentList.get("/locations", (request, response) => {
+  //Data of all locations
+  response.json(locations);
+});
+
+studentList.post("/locations", (request, response) => {
+  //Add new location
+  const newLocation = request.body.location;
+  const foundLocation = locations.findIndex((item) => item === newLocation);
+  if (foundLocation === -1) {
+    locations.push(newLocation);
+    response.send("Success!");
+  } else {
+    response
+      .status(400)
+      .json({ msg: `Location with name ${newLocation} has already present!` });
+  }
+});
+
+studentList.put("/locations/:name", (request, response) => {
+  //Change location
+  const locationName = request.params.name;
+  const locationUpd = request.body.location;
+
+  const foundLocation = locations.findIndex((item) => item === locationName);
+  if (foundLocation !== -1) {
+    locations.splice(foundLocation, 1, locationUpd);
+    response.send("Success!");
+  } else {
+    response
+      .status(400)
+      .json({ msg: `Location with name ${locationName} not found!` });
+  }
+});
+
+studentList.delete("/locations/:name", (request, response) => {
+  //Delete location
+  const locationName = request.params.name;
+
+  const foundLocation = locations.findIndex((item) => item === locationName);
+  if (foundLocation !== -1) {
+    const locationEntrees = students
+      .filter((item) => item.location === locationName)
+      .map((item) => item.name);
+    if (!locationEntrees.length) {
+      locations.splice(foundLocation, 1);
+      response.send("Success!");
+    } else {
+      response.status(400).json({
+        msg: `Location with name ${locationName} is used in student profiles and cannot be deleted. First, remove the mention of this location in student profiles or student profiles themselves. Students list: ${locationEntrees}`,
+      });
+    }
+  } else {
+    response
+      .status(400)
+      .json({ msg: `Location with name ${locationName} not found!` });
+  }
+});
+
+studentList.get("/classes", (request, response) => {
+  //Data of all classes
+  response.json(classes);
+});
+
+studentList.post("/classes", (request, response) => {
+  //Add new class
+  const newClass = request.body.class;
+  const foundClass = classes.findIndex((item) => item === newClass);
+  if (foundClass === -1) {
+    classes.push(newClass);
+    response.send("Success!");
+  } else {
+    response
+      .status(400)
+      .json({ msg: `class with name ${newClass} has already present!` });
+  }
+});
+
+studentList.put("/classes/:name", (request, response) => {
+  //Change class
+  const className = request.params.name;
+  const classUpd = request.body.class;
+
+  const foundClass = classes.findIndex((item) => item === className);
+  if (foundClass !== -1) {
+    classes.splice(foundClass, 1, classUpd);
+    response.send("Success!");
+  } else {
+    response
+      .status(400)
+      .json({ msg: `class with name ${className} not found!` });
+  }
+});
+
+studentList.delete("/classes/:name", (request, response) => {
+  //Delete class
+  const className = request.params.name;
+
+  const foundClass = classes.findIndex((item) => item === className);
+  if (foundClass !== -1) {
+    const classEntrees = students
+      .filter((item) => item.className === className)
+      .map((item) => item.name);
+
+    if (!classEntrees.length) {
+      classes.splice(foundClass, 1);
+      response.send("Success!");
+    } else {
+      response.status(400).json({
+        msg: `class with name ${className} is used in student profiles and cannot be deleted. First, remove the mention of this class in student profiles or student profiles themselves. Students list: ${classEntrees}`,
+      });
+    }
+  } else {
+    response
+      .status(400)
+      .json({ msg: `class with name ${className} not found!` });
+  }
+});
+
 studentList.get("/complex", (request, response) => {
   //Data of all students
   response.json({ students: students, locations: locations, classes: classes });
