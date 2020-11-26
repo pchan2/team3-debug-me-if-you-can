@@ -5,14 +5,16 @@
 2. Market Research
 3. User Experience
 4. Schema Diagram
-5. Future Ideas
-6. Contributors and Acknowledgements
+5. Accessibility
+6. Future Ideas
+7. Contributors and Acknowledgements
 # Links to our resources
-1. GitHub Repo - Front-End https://github.com/edksam/ontrac
-2. GitHub Repo - Back-End https://github.com/pchan2/team3-debug-me-if-you-can
-3. Trello https://trello.com/b/43IagsDi/debug-me-if-you-can
-4. Miro https://miro.com/app/board/o9J_lfv1mQI=/
-5. Presentation https://docs.google.com/presentation/d/1nrUfH9lAjICQJLXKZAvc1xjpNQQZAUl62WCGTHyq_4E/edit?usp=sharing
+1. Application URL (awaiting link)
+2. GitHub Repo - Front-End https://github.com/edksam/ontrac
+3. GitHub Repo - Back-End https://github.com/pchan2/team3-debug-me-if-you-can
+4. Trello https://trello.com/b/43IagsDi/debug-me-if-you-can
+5. Miro https://miro.com/app/board/o9J_lfv1mQI=/
+6. Presentation https://docs.google.com/presentation/d/1nrUfH9lAjICQJLXKZAvc1xjpNQQZAUl62WCGTHyq_4E/edit?usp=sharing
 
 # Market Research
 <img src="/documentation-img/market-research.jpg" alt="market research">
@@ -24,6 +26,14 @@
 
 # Schema Diagram
 <img src="/documentation-img/schema-diagram.jpg" alt="schema diagram">
+
+# Accessibility
+1. Font size - 16px
+2. No words in uppercase.
+3. Line height - 1.5rem
+4. Text font increase S, M, L in top right hand corner - see example https://www.techlicious.com/images/phones/make-text-larger-android-640px.jpg
+5. Button size - bigger padding for accessibility - The size of the target for pointer inputs is at least 44 by 44 CSS pixels - https://www.w3.org/WAI/WCAG21/Understanding/target-size.html
+6. Buttons - have 16px margin between buttons for accessibility [I'm not an expert but I think 16px is ok].
 
 # Future Ideas
 <img src="/documentation-img/future-ideas.jpg" alt="future ideas">
