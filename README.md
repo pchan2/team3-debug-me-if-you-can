@@ -29,24 +29,24 @@
 <img src="/documentation-img/future-ideas.jpg" alt="future ideas">
 
 # Contributors and Acknowledgements
-1.0.  Team 3 - Debug Me If You Can
-1.1. Main Page by Zubeda Khanum (Front-End), Gennady Tabala (Back-End)
-1.2. Student Profile by Berhane Woldetensay (Front-End), Leroy Douglas (Back-End)
-1.3. Personal Development Page by Ebenezer Sam (Front-End), Daniel Carter (Back-End)
+1.0.  Team 3 - Debug Me If You Can<br>
+1.1. Main Page by Zubeda Khanum (Front-End), Gennady Tabala (Back-End)<br>
+1.2. Student Profile by Berhane Woldetensay (Front-End), Leroy Douglas (Back-End)<br>
+1.3. Personal Development Page by Ebenezer Sam (Front-End), Daniel Carter (Back-End)<br>
 1.4. Jude Lobo (Project Manager), Patrick Chan (Project Manager)
 
-2.0. Capgemini Helpers
-2.1. Amardeep Chimber
-2.2. Dharmesh Chohan, Technical Delivery Manager
-2.3. Jude Lobo, Digital Business Analyst
-2.4. Kirsty Lees, Software Engineer / SCRUM Master
-2.5. Martin Armstrong, Software Engineer
-2.6. Natalie Michalski, User Experience Consultant
+2.0. Capgemini Helpers<br>
+2.1. Amardeep Chimber<br>
+2.2. Dharmesh Chohan, Technical Delivery Manager<br>
+2.3. Jude Lobo, Digital Business Analyst<br>
+2.4. Kirsty Lees, Software Engineer / SCRUM Master<br>
+2.5. Martin Armstrong, Software Engineer<br>
+2.6. Natalie Michalski, User Experience Consultant<br>
 
-3.0. Market Research Helpers
-3.1. Bukola Jimoh, CYF Education Volunteer / Software Engineer
-3.2. Chris Owen, CYF Director of Education
-3.3. Claire Bickley, CYF West Midlands Regional Manager
-3.4. Edgar Endriulis, CYF Personal Development Volunteer / Underwriter
-3.5. Marcin Szczot, CYF Education Volunteer / Software Developer
+3.0. Market Research Helpers<br>
+3.1. Bukola Jimoh, CYF Education Volunteer / Software Engineer<br>
+3.2. Chris Owen, CYF Director of Education<br>
+3.3. Claire Bickley, CYF West Midlands Regional Manager<br>
+3.4. Edgar Endriulis, CYF Personal Development Volunteer / Underwriter<br>
+3.5. Marcin Szczot, CYF Education Volunteer / Software Developer<br>
 3.6. Simon Whitehouse, CFY Personal Development Volunteer / Data Standards Adoption Consultant
