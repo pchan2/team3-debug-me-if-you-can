@@ -16,7 +16,6 @@
 3. GitHub Repo - Back-End https://github.com/pchan2/team3-debug-me-if-you-can
 4. Trello https://trello.com/b/43IagsDi/debug-me-if-you-can
 5. Miro https://miro.com/app/board/o9J_lfv1mQI=/
-6. Presentation https://docs.google.com/presentation/d/1nrUfH9lAjICQJLXKZAvc1xjpNQQZAUl62WCGTHyq_4E/edit?usp=sharing
 
 # Market Research
 <img src="/documentation-img/market-research.jpg" alt="market research">
