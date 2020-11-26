@@ -9,7 +9,7 @@
 6. Contributors and Acknowledgements
 # Links to our resources
 1. GitHub Repo - Front-End https://github.com/edksam/ontrac
-2. GitHub Repo - Back-End https://miro.com/app/board/o9J_lfv1mQI=/
+2. GitHub Repo - Back-End https://github.com/pchan2/team3-debug-me-if-you-can
 3. Trello https://trello.com/b/43IagsDi/debug-me-if-you-can
 4. Miro https://miro.com/app/board/o9J_lfv1mQI=/
 5. Presentation https://docs.google.com/presentation/d/1nrUfH9lAjICQJLXKZAvc1xjpNQQZAUl62WCGTHyq_4E/edit?usp=sharing
@@ -29,24 +29,24 @@
 <img src="/documentation-img/future-ideas.jpg" alt="future ideas">
 
 # Contributors and Acknowledgements
-1. 0. Team 3 - Debug Me If You Can
-1. 1. Main Page by Zubeda Khanum (Front-End), Gennady Tabala (Back-End)
-1. 2. Student Profile by Berhane Woldetensay (Front-End), Leroy Douglas (Back-End)
-1. 3. Personal Development Page by Ebenezer Sam (Front-End), Daniel Carter (Back-End)
-1. 4. Jude Lobo (Project Manager), Patrick Chan (Project Manager)
+1.0.  Team 3 - Debug Me If You Can
+1.1. Main Page by Zubeda Khanum (Front-End), Gennady Tabala (Back-End)
+1.2. Student Profile by Berhane Woldetensay (Front-End), Leroy Douglas (Back-End)
+1.3. Personal Development Page by Ebenezer Sam (Front-End), Daniel Carter (Back-End)
+1.4. Jude Lobo (Project Manager), Patrick Chan (Project Manager)
 
-2. 0. Capgemini Helpers
-2. 1. Amardeep Chimber
-2. 2. Dharmesh Chohan, Technical Delivery Manager
-2. 3. Jude Lobo, Digital Business Analyst
-2. 4. Kirsty Lees, Software Engineer / SCRUM Master
-2. 5. Martin Armstrong, Software Engineer
-2. 6. Natalie Michalski, User Experience Consultant
+2.0. Capgemini Helpers
+2.1. Amardeep Chimber
+2.2. Dharmesh Chohan, Technical Delivery Manager
+2.3. Jude Lobo, Digital Business Analyst
+2.4. Kirsty Lees, Software Engineer / SCRUM Master
+2.5. Martin Armstrong, Software Engineer
+2.6. Natalie Michalski, User Experience Consultant
 
-3. 0. Market Research Helpers
-3. 1. Bukola Jimoh, CYF Education Volunteer / Software Engineer
-3. 2. Chris Owen, CYF Director of Education
-3. 3. Claire Bickley, CYF West Midlands Regional Manager
-3. 4. Edgar Endriulis, CYF Personal Development Volunteer / Underwriter
-3. 5. Marcin Szczot, CYF Education Volunteer / Software Developer
-3. 6. Simon Whitehouse, CFY Personal Development Volunteer / Data Standards Adoption Consultant
+3.0. Market Research Helpers
+3.1. Bukola Jimoh, CYF Education Volunteer / Software Engineer
+3.2. Chris Owen, CYF Director of Education
+3.3. Claire Bickley, CYF West Midlands Regional Manager
+3.4. Edgar Endriulis, CYF Personal Development Volunteer / Underwriter
+3.5. Marcin Szczot, CYF Education Volunteer / Software Developer
+3.6. Simon Whitehouse, CFY Personal Development Volunteer / Data Standards Adoption Consultant
