@@ -1,12 +1,12 @@
 # Documentation
 
 # Contents
-1. # Links to our resources
-2. # Market Research
-3. # User Experience
-4. # Schema Diagram
-5. # Future Ideas
-6. # Contributors and Acknowledgements
+1. Links to our resources
+2. Market Research
+3. User Experience
+4. Schema Diagram
+5. Future Ideas
+6. Contributors and Acknowledgements
 # Links to our resources
 1. GitHub Repo - Front-End https://github.com/edksam/ontrac
 2. GitHub Repo - Back-End https://miro.com/app/board/o9J_lfv1mQI=/
