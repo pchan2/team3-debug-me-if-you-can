@@ -29,11 +29,11 @@
 <img src="/documentation-img/future-ideas.jpg" alt="future ideas">
 
 # Contributors and Acknowledgements
-1.0.  Team 3 - Debug Me If You Can<br>
-1.1. Main Page by Zubeda Khanum (Front-End), Gennady Tabala (Back-End)<br>
-1.2. Student Profile by Berhane Woldetensay (Front-End), Leroy Douglas (Back-End)<br>
-1.3. Personal Development Page by Ebenezer Sam (Front-End), Daniel Carter (Back-End)<br>
-1.4. Jude Lobo (Project Manager), Patrick Chan (Project Manager)
+1.0. Team 3 - Debug Me If You Can<br>
+1.1. Main Page - Zubeda Khanum (Front-End) & Gennady Tabala (Back-End)<br>
+1.2. Student Profile - Berhane Woldetensay (Front-End) & Leroy Douglas (Back-End)<br>
+1.3. Personal Development Page - Ebenezer Sam (Front-End) & Daniel Carter (Back-End)<br>
+1.4. Project Management - Jude Lobo & Patrick Chan
 
 2.0. Capgemini Helpers<br>
 2.1. Amardeep Chimber<br>
@@ -41,7 +41,7 @@
 2.3. Jude Lobo, Digital Business Analyst<br>
 2.4. Kirsty Lees, Software Engineer / SCRUM Master<br>
 2.5. Martin Armstrong, Software Engineer<br>
-2.6. Natalie Michalski, User Experience Consultant<br>
+2.6. Natalie Michalski, User Experience Consultant
 
 3.0. Market Research Helpers<br>
 3.1. Bukola Jimoh, CYF Education Volunteer / Software Engineer<br>
