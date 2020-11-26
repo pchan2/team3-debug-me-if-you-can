@@ -6,8 +6,10 @@
 3. User Experience
 4. Schema Diagram
 5. Accessibility
-6. Future Ideas
-7. Contributors and Acknowledgements
+6. Maintainability - Front-End
+7. Maintainability - Back-End
+8. Future Ideas
+9. Contributors and Acknowledgements
 # Links to our resources
 1. Application URL (awaiting link)
 2. GitHub Repo - Front-End https://github.com/edksam/ontrac
@@ -28,12 +30,21 @@
 <img src="/documentation-img/schema-diagram.jpg" alt="schema diagram">
 
 # Accessibility
-1. Font size - 16px
+1. Font size - minimum 16px or 1rem.
 2. No words in uppercase.
 3. Line height - 1.5rem
 4. Text font increase S, M, L in top right hand corner - see example https://www.techlicious.com/images/phones/make-text-larger-android-640px.jpg
 5. Button size - bigger padding for accessibility - The size of the target for pointer inputs is at least 44 by 44 CSS pixels - https://www.w3.org/WAI/WCAG21/Understanding/target-size.html
 6. Buttons - have 16px margin between buttons for accessibility.
+
+# Maintainability - Front-End
+1. Nav bar on hover: red to match the CYF branding.
+2. Background colour: #f8f9fa;
+3. BootstrapCDN library is used.
+
+# Maintainability - Back-End
+1. Main Page https://ontrack-team3.herokuapp.com/students
+2. Main Page testing https://progresstracker.glitch.me/students
 
 # Future Ideas
 <img src="/documentation-img/future-ideas.jpg" alt="future ideas">
