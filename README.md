@@ -44,8 +44,8 @@
 3. BootstrapCDN library is used.
 
 # Maintainability - Back-End
-1. Main Page https://ontrack-team3.herokuapp.com/students
-2. Main Page testing https://progresstracker.glitch.me/students
+1. Main Page: https://ontrack-team3.herokuapp.com/students
+2. Main Page testing: https://progresstracker.glitch.me/students
 3. Back-End route implementation guide: https://github.com/pchan2/team3-debug-me-if-you-can/blob/main/How%20to%20support%20routing%20files%20in%20Express.docx
 
 # Future Ideas
