@@ -4,15 +4,16 @@
 1. Links to our resources
 2. Market Research
 3. User Experience
-4. Schema Diagram
-5. Accessibility
-6. Maintainability - Front-End
-7. Maintainability - Back-End
-8. Future Ideas
-9. Contributors and Acknowledgements
+4. Site Map
+5. Schema Diagram
+6. Accessibility
+7. Maintainability - Front-End
+8. Maintainability - Back-End
+9. Future Ideas
+10. Contributors and Acknowledgements
 
 # Links to our resources
-1. Application URL (awaiting link)
+1. Application URL - Main Page https://ontrack-cyf.netlify.app/
 2. GitHub Repo - Front-End https://github.com/edksam/ontrac
 3. GitHub Repo - Back-End https://github.com/pchan2/team3-debug-me-if-you-can
 4. Trello https://trello.com/b/43IagsDi/debug-me-if-you-can
@@ -25,6 +26,9 @@
 <img src="/documentation-img/personas.jpg" alt="personas">
 <img src="/documentation-img/empathy-map.jpg" alt="empathy map">
 <img src="/documentation-img/user-journey.jpg" alt="user-journey">
+
+# Site Map
+<img src="/documentation-img/site-map.jpg" alt="site map">
 
 # Schema Diagram
 <img src="/documentation-img/schema-diagram.jpg" alt="schema diagram">
