@@ -10,6 +10,7 @@
 7. Maintainability - Back-End
 8. Future Ideas
 9. Contributors and Acknowledgements
+
 # Links to our resources
 1. Application URL (awaiting link)
 2. GitHub Repo - Front-End https://github.com/edksam/ontrac
@@ -56,7 +57,7 @@
 1.4. Project Management - Jude Lobo & Patrick Chan
 
 2.0. Capgemini Helpers<br>
-2.1. Amardeep Chimber<br>
+2.1. Amardeep Chimber, Software Engineer<br>
 2.2. Dharmesh Chohan, Technical Delivery Manager<br>
 2.3. Jude Lobo, Digital Business Analyst<br>
 2.4. Kirsty Lees, Software Engineer / SCRUM Master<br>
