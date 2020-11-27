@@ -28,7 +28,7 @@
 <img src="/documentation-img/user-journey.jpg" alt="user-journey">
 
 # Site Map
-
+<img src="/documentation-img/site-map.jpg" alt="site map">
 
 # Schema Diagram
 <img src="/documentation-img/schema-diagram.jpg" alt="schema diagram">
