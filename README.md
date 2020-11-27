@@ -36,6 +36,7 @@
 4. Text font increase S, M, L in top right hand corner - see example https://www.techlicious.com/images/phones/make-text-larger-android-640px.jpg
 5. Button size - bigger padding for accessibility - The size of the target for pointer inputs is at least 44 by 44 CSS pixels - https://www.w3.org/WAI/WCAG21/Understanding/target-size.html
 6. Buttons - have 16px margin between buttons for accessibility.
+7. Colour contrast ratio - WCAG minimum is 4.5. We aim for 7.0.
 
 # Maintainability - Front-End
 1. Nav bar on hover: red to match the CYF branding.
